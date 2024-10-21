@@ -14,15 +14,20 @@ body {
   margin: 5rem auto;
 }
 
-
-.square {
-  width: 100px;
-  aspect-ratio: 1;
-  background-color: #cecece;
+.post {
   border: 1px solid #333;
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
 
-.active {
-  background-color: green;
+.dark {
+  background-color: #333;
+  color: white;
 }
