@@ -14,21 +14,6 @@ body {
   margin: 5rem auto;
 }
 
-.contact-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.contact {
-  border: 1px solid #333;
-  padding: .5rem;
-  border-radius: .5rem;
-  .names {
-    font-weight: 600;
-    font-size: 1.1rem;
-    }
-  .email {
-    font-size: .9rem;
-  }
+button {
+  padding: 1rem;
 }
