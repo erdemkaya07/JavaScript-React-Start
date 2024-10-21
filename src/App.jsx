@@ -1,16 +1,12 @@
-import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Footer from "./components/Footer";
+import React from 'react'
+import ContactList from './components/ContactList'
 
-export default function App() {
+function App() {
   return (
-    <>
-      <Navbar />
-      <main>
-        <Hero />
-      </main>
-      <Footer />
-    </>
-  );
+    <div className='container'>
+      <ContactList />
+    </div>
+  )
 }
+
+export default App
